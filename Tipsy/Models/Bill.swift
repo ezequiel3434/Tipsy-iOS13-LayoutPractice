@@ -10,7 +10,8 @@ import Foundation
 
 
 struct Bill {
-    let tip: Float
-    let total: Float
+    let tip: String
+    let total: Double
     let numberOfPeople: Int
+    let amounPerPerson: Double
 }
