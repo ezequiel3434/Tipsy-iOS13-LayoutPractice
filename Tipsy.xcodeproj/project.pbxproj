@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		37FA2EE825152FA100ECC513 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA2EE725152FA100ECC513 /* ResultViewController.swift */; };
-		37FA2EEC2515371D00ECC513 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA2EEB2515371D00ECC513 /* File.swift */; };
+		37FA2EEF2515456300ECC513 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA2EEE2515456300ECC513 /* Bill.swift */; };
+		37FA2EF12515460D00ECC513 /* BillCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA2EF02515460D00ECC513 /* BillCalculator.swift */; };
 		ADB689532326708D006D4E2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB689522326708D006D4E2B /* AppDelegate.swift */; };
 		ADB689552326708D006D4E2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB689542326708D006D4E2B /* SceneDelegate.swift */; };
 		ADB689572326708D006D4E2B /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB689562326708D006D4E2B /* CalculatorViewController.swift */; };
@@ -19,7 +20,8 @@
 
 /* Begin PBXFileReference section */
 		37FA2EE725152FA100ECC513 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
-		37FA2EEB2515371D00ECC513 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		37FA2EEE2515456300ECC513 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		37FA2EF02515460D00ECC513 /* BillCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillCalculator.swift; sourceTree = "<group>"; };
 		ADB6894F2326708D006D4E2B /* Tipsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB689522326708D006D4E2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADB689542326708D006D4E2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,12 +52,13 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		37FA2EEA2515371100ECC513 /* Resources */ = {
+		37FA2EED2515453700ECC513 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				37FA2EEB2515371D00ECC513 /* File.swift */,
+				37FA2EEE2515456300ECC513 /* Bill.swift */,
+				37FA2EF02515460D00ECC513 /* BillCalculator.swift */,
 			);
-			path = Resources;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		ADB689462326708D006D4E2B = {
@@ -77,7 +80,7 @@
 		ADB689512326708D006D4E2B /* Tipsy */ = {
 			isa = PBXGroup;
 			children = (
-				37FA2EEA2515371100ECC513 /* Resources */,
+				37FA2EED2515453700ECC513 /* Models */,
 				ADB689522326708D006D4E2B /* AppDelegate.swift */,
 				ADB689542326708D006D4E2B /* SceneDelegate.swift */,
 				37FA2EE925152FB700ECC513 /* Controllers */,
@@ -160,10 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37FA2EEC2515371D00ECC513 /* File.swift in Sources */,
+				37FA2EF12515460D00ECC513 /* BillCalculator.swift in Sources */,
 				ADB689572326708D006D4E2B /* CalculatorViewController.swift in Sources */,
 				ADB689532326708D006D4E2B /* AppDelegate.swift in Sources */,
 				ADB689552326708D006D4E2B /* SceneDelegate.swift in Sources */,
+				37FA2EEF2515456300ECC513 /* Bill.swift in Sources */,
 				37FA2EE825152FA100ECC513 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

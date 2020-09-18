@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  Bill.swift
 //  Tipsy
 //
 //  Created by Ezequiel Parada Beltran on 18/09/2020.
@@ -8,6 +8,9 @@
 
 import Foundation
 
-extension CalculatorViewController {
-    
+
+struct Bill {
+    let tip: Float
+    let total: Float
+    let numberOfPeople: Int
 }

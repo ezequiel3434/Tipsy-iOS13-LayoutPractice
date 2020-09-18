@@ -40,6 +40,8 @@ class CalculatorViewController: UIViewController {
     @IBAction func calculatePressed(_ sender: UIButton) {
         print("\(pct) was selected")
         print(numOfPeaple)
+        
+        self.performSegue(withIdentifier: "goToResult", sender: self)
     }
 }
 
