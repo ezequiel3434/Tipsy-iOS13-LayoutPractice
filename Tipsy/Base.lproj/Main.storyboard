@@ -205,10 +205,10 @@
             </objects>
             <point key="canvasLocation" x="139" y="118"/>
         </scene>
-        <!--View Controller-->
+        <!--Result View Controller-->
         <scene sceneID="bJV-Cc-sXH">
             <objects>
-                <viewController id="Dnf-m2-FPm" sceneMemberID="viewController">
+                <viewController id="Dnf-m2-FPm" customClass="ResultViewController" customModule="Tipsy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="E4v-0r-cyo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -269,6 +269,9 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10f"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="recalculatePressed:" destination="Dnf-m2-FPm" eventType="touchUpInside" id="jDk-12-VCt"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.97254901959999995" green="1" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -284,6 +287,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="SFV-my-Ds8"/>
                     </view>
+                    <connections>
+                        <outlet property="settingsLabel" destination="y5n-yI-QwU" id="ITy-6h-IZM"/>
+                        <outlet property="totalLabel" destination="cw2-SX-JMK" id="Q6C-rw-fiJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uLi-Eb-NGd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
